@@ -10,6 +10,7 @@ doctrine:
     orm:
         resolve_target_entities:
             BitBag\SyliusCmsPlugin\Entity\PageTranslationInterface: BitBag\SyliusCmsPlugin\Entity\PageTranslation
+            BitBag\SyliusCmsPlugin\Entity\PageImageInterface: BitBag\SyliusCmsPlugin\Entity\PageImage
 
 jms_serializer:
     metadata:
